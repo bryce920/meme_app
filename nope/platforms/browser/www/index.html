@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>memes</title>
+    </head>
+    <body>
+	
+<style>
+body { 
+    background-image: url('hal.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+.button {
+  display: inline-block;
+  padding: 5px 70px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 13px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(3px);
+}
+
+h1 {
+    text-align: left;
+	color:white;
+}
+
+
+</style>
+</head>
+
+
+
+	
+
+
+
+
+
+<h1> <center>HAL 9002</center></h1>
+
+<center><button id="myBtn" class="button"  onclick="myFunction()">MEMES</button><center>
+
+<center><font color="white"><h2 id="demo"></h2></font></center>
+
+<script>
+
+    
+
+function myFunction() {
+
+ 
+	var myAudio = new Audio("I am the one the oneFULL SONGYouTube.mp3");
+    var myAudio1 = new Audio("Thomas - the.mp3");
+	var myAudio2 = new Audio("dat - boi!!!!.mp3");
+	var myAudio3 = new Audio("You - reposted.mp3");
+	var myAudio4 = new Audio("Modern Warfare 2 - Tactical Nuke Sound.mp3");
+	var myAudio5 = new Audio("Mission - Failed.mp3");
+	var myAudio6 = new Audio("Harlem Shake - Full Song.mp3");
+	var myAudio7 = new Audio("Overwatch McCrees Ultimate - Its high noon Sound Effect.mp3");
+	var myAudio8 = new Audio("Jurassic - Park.mp3");
+	var myAudio9 = new Audio("HEYYEYAAEYAAAEYAEYAA.mp3");
+    var x = Math.floor((Math.random() * 10) + 1);
+	
+ 
+	document.getElementById("myBtn").disabled = true;
+    document.getElementById("demo").innerHTML = x;
+	var greeting;
+    
+
+function refreshPage() {
+    //ensure reloading from server instead of cache
+    location.reload(true);
+}
+function delayRefreshPage(mileSeconds) {
+    window.setTimeout(refreshPage, mileSeconds);
+}
+
+	if (x <= 1) {
+	    delayRefreshPage(32300);
+        greeting = "O shit what up";
+	    myAudio2.play();
+		var y = document.createElement("IMG");
+         y.setAttribute("src", "https://media.giphy.com/media/UHKL9BtyM4WrK/giphy.gif");
+         y.setAttribute("width", "390");
+		 y.setAttribute("align","center");
+         y.setAttribute("height", "390");
+         y.setAttribute("alt", "dat boi");
+         document.body.appendChild(y); 
+       
+		  
+    } else if (x <= 2) {
+	    delayRefreshPage(30000);
+	greeting = "Ohhh";
+	 myAudio.play();
+	 var y = document.createElement("IMG");
+         y.setAttribute("src", "giphy.gif");
+		 y.setAttribute("align","center");
+		 y.setAttribute("width", "390");
+         y.setAttribute("height", "390");
+         y.setAttribute("alt", "flip");
+         document.body.appendChild(y); 
+	 
+	  } else if (x <= 3){
+	      delayRefreshPage(35000);
+        greeting = "420";
+		myAudio1.play();
+	    var y = document.createElement("IMG");
+         y.setAttribute("src", "train.gif");
+         y.setAttribute("width", "390");
+		 y.setAttribute("align","center");
+         y.setAttribute("height", "390");
+         y.setAttribute("alt", "train");
+         document.body.appendChild(y); 
+	 
+		
+    } else if (x <= 4){
+	    delayRefreshPage(35000);
+        greeting = "your in the wrong neighborhood ";
+            myAudio3.play();
+			var y = document.createElement("IMG");
+         y.setAttribute("src", "you_came_to_the_wrong_neighborhood____by_quartrguy-d83zw08.png");
+         y.setAttribute("width", "390");
+         y.setAttribute("height", "390");
+		 y.setAttribute("align","center");
+         y.setAttribute("alt", "wrong");
+         document.body.appendChild(y); 
+	}else if (x <= 5){
+	    delayRefreshPage(20000);
+	 greeting = "goodbay";
+	  myAudio4.play()
+	  var y = document.createElement("IMG");
+         y.setAttribute("src", "Nuke.gif");
+         y.setAttribute("width", "390");
+         y.setAttribute("height", "390");
+		 y.setAttribute("align","center");
+         y.setAttribute("alt", "wrong");
+         document.body.appendChild(y); 
+	}else if (x <= 6){
+	    delayRefreshPage(20000);
+	  myAudio5.play()
+	  greeting = "mission failed";
+	  var y = document.createElement("IMG");
+	  y.setAttribute("align","center");
+         y.setAttribute("src", "mf.gif");
+         y.setAttribute("width", "390");
+		 y.setAttribute("align","center");
+         y.setAttribute("height", "390");
+         y.setAttribute("alt", "wrong");
+         document.body.appendChild(y); 
+	}else if (x <= 7){    
+	delayRefreshPage(40000);
+	  myAudio6.play()
+	   greeting = "do the harlem shake";
+	  var y = document.createElement("IMG");
+	  y.setAttribute("align","center");
+         y.setAttribute("src", "shake.gif");
+         y.setAttribute("width", "390");
+         y.setAttribute("height", "390");
+         y.setAttribute("alt", "wrong");
+         document.body.appendChild(y); 
+	}else if (x <= 8){
+	    delayRefreshPage(9940);
+	  myAudio7.play()
+	 greeting = "what time is it?";
+     var y = document.createElement("IMG");
+         y.setAttribute("src", "it hiii.gif");
+		  y.setAttribute("align","center");
+         y.setAttribute("width", "390");
+         y.setAttribute("height", "390");
+         y.setAttribute("alt", "wrong");
+         document.body.appendChild(y); 
+	}else if (x <= 9){
+	    delayRefreshPage(30000);
+	  myAudio8.play()
+	  greeting = "jurassic fart";
+	   var y = document.createElement("IMG");
+         y.setAttribute("src", "kazoo.gif");
+		   y.setAttribute("align","center");
+         y.setAttribute("width", "390");
+         y.setAttribute("height", "390");
+         y.setAttribute("alt", "wrong");
+         document.body.appendChild(y); 
+	}else if (x <= 10){
+	    delayRefreshPage(40000);
+	  myAudio9.play()
+	  greeting = "hayhayhayhay";
+	  var y = document.createElement("IMG");
+	  y.setAttribute("align","center");
+         y.setAttribute("src", "hay.gif");
+         y.setAttribute("width", "390");
+         y.setAttribute("height", "390");
+         y.setAttribute("alt", "wrong");
+         document.body.appendChild(y); 
+	}
+	
+document.getElementById("demo").innerHTML =greeting;
+
+}
+	
+	
+	
+</script>
+    </body>
+</html>
